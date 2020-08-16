@@ -1,0 +1,149 @@
+/*Navbar Styling*/
+#title {
+  background-color: #2f4858;
+}
+
+.navbar {
+  padding: 10px;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 1.8rem;
+  font-weight: 400;
+  padding-left: 1.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.media-wrapper {
+  text-align: center;
+}
+
+.icons {
+  color: #FFBD69;
+  padding-right: 1rem;
+}
+
+/*contact*/
+.main {
+  clear: left;
+  height: 110vh;
+  background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(255, 255, 255, .5)), url("../images/code2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  color: #ffffff;
+  padding: 7% 15%;
+}
+
+.Bigheading {
+  font-family: 'Ubuntu';
+  font-weight: bold;
+  font-size: 4rem;
+  text-align: center;
+}
+.contact{
+  text-align:center;
+}
+.text{
+  font-size: 1.5rem;
+
+}
+
+.icons {
+  text-align: center;
+  margin-right:10px;
+}
+.linkit{
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: white;
+}
+
+a.linkit:hover{
+  color:#ffffff;
+}
+.icons :hover{
+  color:#ffffff;
+}
+
+/*footer*/
+#footer {
+  background-color: #2f4858;
+    padding: 6% 10% 5% 10%;
+}
+
+.logoname {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.footerlogo {
+  text-align: center;
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: 400;
+  padding-bottom: 4%;
+}
+
+.foo {
+  padding: 3% 2% 2% 2%;
+  text-align: center;
+}
+
+.footer__navigation {
+  text-align: center;
+}
+
+.footer__list {
+  list-style: none;
+}
+
+.footer__item {
+  display: inline-block;
+}
+
+.footer__item {
+  margin-right: 1.5rem;
+}
+
+.footer__link:link,
+.footer_link:visited {
+  color: white;
+  color: #777;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: inline-block;
+  transition: all 0.2s;
+}
+
+.footer__link:hover,
+.footer__link:active {
+  color: #F4A460;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.4);
+  transform: rotate(5deg) scale(1.3);
+}
+
+.footer__item a {
+  color: white;
+  font-size: 1.2rem;
+}
+
+.footer__copyright {
+  color: white;
+}
+
+@media screen and (max-width:768px) {
+  .footer__item {
+    display: block;
+  }
+
+}
